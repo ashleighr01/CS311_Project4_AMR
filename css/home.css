@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    background-color: black;
+    color: aliceblue;
+}
+#music {
+    padding: 15px;
+}
+
+#intro {
+    font-size: large;
+}
+
+#credits {
+    background-color: black;
+    color: aliceblue;
+    font-style: italic;
+}

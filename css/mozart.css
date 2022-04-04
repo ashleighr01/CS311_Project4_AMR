@@ -1,0 +1,60 @@
+body {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.info {
+    display: grid;
+    grid-template-columns: [col-start] auto [col2] auto [col3] auto [col4] auto [col5] auto [col-end];
+    grid-template-rows: [row-start] auto [row2] auto [row3] auto [row-end];
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#works {
+    grid-column-start: col-start;
+    grid-column-end: span col3;
+    grid-row-start: row-start;
+    grid-row-end: row-end;
+    font-size: 14pt;
+    padding-left: 15px;
+}
+
+#name {
+    grid-column-start: col3;
+    grid-column-end: span col-end;
+    grid-row-start: row-start;
+    grid-row-end: row2;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+#biography{
+    grid-column-start: col3;
+    grid-column-end: span col5;
+    grid-row-start: row2;
+    grid-row-end: row-end;
+    padding-left: 15px;
+}
+
+#image {
+    padding: 15px;
+    grid-column-start: col5;
+    grid-column-end: span col-end;
+    grid-row-start: row2;
+    grid-row-end: row-end;
+ 
+}
+
+.credits {
+    background-color: black;
+    color: aliceblue;
+    font-style: italic;
+   
+}

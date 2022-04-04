@@ -1,0 +1,32 @@
+body {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+#title {
+    background-color: black;
+    color:aliceblue;
+}
+
+#problems{
+    background-color: darksalmon;
+    color: black;
+}
+
+#solutions {
+    background-color: khaki;
+    color: black;
+}
+
+#bootstrap {
+    background-color: powderblue;
+    color: black;
+}
